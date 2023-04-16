@@ -10,12 +10,9 @@ var arrayStringsAreEqual = function(word1, word2) {
       word2String += element
   }
 
- const result = word1String === word2String ? true : false
-
- return result
+  return word1String === word2String ? true : false
 };
 
-// 1 liner solution
 // const arrayStringsAreEqual = function(word1, word2) {
-//   return word1.join('') === word2.join('')
+//     return word1.join('') === word2.join('')
 // }
