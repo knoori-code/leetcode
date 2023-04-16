@@ -14,3 +14,8 @@ var arrayStringsAreEqual = function(word1, word2) {
 
  return result
 };
+
+// 1 liner solution
+// const arrayStringsAreEqual = function(word1, word2) {
+//   return word1.join('') === word2.join('')
+// }
