@@ -10,7 +10,7 @@ var arrayStringsAreEqual = function(word1, word2) {
       word2String += element
   }
 
-  return word1String === word2String ? true : false
+  return word1String === word2String
 };
 
 // const arrayStringsAreEqual = function(word1, word2) {
