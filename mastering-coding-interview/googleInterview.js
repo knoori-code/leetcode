@@ -2,10 +2,10 @@ const array = [6, 4, 3, 2, 1, 7];
 const sum = 9;
 
 // Brute force method
-function sumInArray(arr, tar) {
+function sumInArray(arr, sum) {
   for (let i = 0; i < arr.length - 1; i++) {
     for (let j = i + 1; j < arr.length; j++) {
-      if (arr[i] + arr[j] === tar) {
+      if (arr[i] + arr[j] === sum) {
         return true;
       }
     }
