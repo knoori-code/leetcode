@@ -17,4 +17,21 @@ var sumOfUnique = function(nums) {
   }
 
   return sum;
+
+  // Alternate solution
+
+  // const obj = {};
+  //   let sum = 0;
+
+  //   for (let num of nums) {
+  //       if (obj[num] === undefined) {
+  //           obj[num] = 1;
+  //           sum += num;
+  //       } else if (obj[num] === 1) {
+  //           sum -= num;
+  //           obj[num] = 0;
+  //       }
+  //   }
+
+  //   return sum;
 };
